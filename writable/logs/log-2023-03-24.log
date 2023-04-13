@@ -1,0 +1,432 @@
+CRITICAL - 2023-03-24 05:59:19 --> Invalid file: "kelas/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelas/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(11): view('kelas/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:20:31 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:20:44 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:23:31 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:23:58 --> Undefined variable $title
+in APPPATH\Views\kelas\index.php on line 8.
+ 1 APPPATH\Views\kelas\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:24:01 --> Undefined variable $title
+in APPPATH\Views\kelas\index.php on line 8.
+ 1 APPPATH\Views\kelas\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:24:40 --> Undefined variable $title
+in APPPATH\Views\kelas\index.php on line 8.
+ 1 APPPATH\Views\kelas\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:24:52 --> Undefined variable $title
+in APPPATH\Views\kelas\index.php on line 8.
+ 1 APPPATH\Views\kelas\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:27:01 --> syntax error, unexpected end of file
+in APPPATH\Views\kelas\index.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:27:56 --> Undefined variable $title
+in APPPATH\Views\kelas\index.php on line 8.
+ 1 APPPATH\Views\kelas\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(20): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:53:35 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(26): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:54:07 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(27): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:54:08 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(27): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:54:11 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(27): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:54:34 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(27): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:55:16 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 8.
+ 1 APPPATH\Views\kelas\tambah.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(27): view('kelas/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 08:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 08:36:23 --> "is_number" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_number')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nilai', 'nilai', 'haha', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\KelasInput.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 08:39:25 --> "is_number" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_number')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nilai', 'nilai', 'haha', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\KelasInput.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 08:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 08:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 09:06:45 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\KelasInputModel.php(25): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\KelasInput.php(73): App\Models\KelasInputModel->tambah_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 09:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 09:08:21 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:08:55 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:08:56 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:08:57 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:09:14 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:09:15 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:09:30 --> Call to undefined method App\Models\KelasInputModel::tampilan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(19): CodeIgniter\Model->__call('tampilan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:27:40 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'kelas/sunting', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kelas/sunting')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kelas/sunting')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:29:15 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'kelas/sunting', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kelas/sunting')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kelas/sunting')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:30:16 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'kelas/sunting', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kelas/sunting')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kelas/sunting')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:30:17 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'favicon.ico', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('favicon.ico')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('favicon.ico')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:32:14 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'kelas/sunting/asdas', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kelas/sunting/asdas')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kelas/sunting/asdas')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:32:14 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'favicon.ico', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('favicon.ico')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('favicon.ico')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:32:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'kelas/sunting', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('kelas/sunting')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('kelas/sunting')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:32:21 --> preg_match(): Compilation failed: missing closing parenthesis at offset 22
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 22', 'SYSTEMPATH\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^kelas/sunting/([\\w]+$#u', 'favicon.ico', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('favicon.ico')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('favicon.ico')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 09:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 09:38:15 --> Undefined property: stdClass::$nrp
+in APPPATH\Views\kelas\sunting.php on line 87.
+ 1 APPPATH\Views\kelas\sunting.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nrp', 'APPPATH\\Views\\kelas\\sunting.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\sunting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/sunting', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(93): view('kelas/sunting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->sunting('C14220061')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 09:38:48 --> Undefined property: stdClass::$nrp
+in APPPATH\Views\kelas\sunting.php on line 87.
+ 1 APPPATH\Views\kelas\sunting.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nrp', 'APPPATH\\Views\\kelas\\sunting.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\sunting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/sunting', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(93): view('kelas/sunting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->sunting('C14220061')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 09:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 09:57:24 --> Undefined array key "nama"
+in APPPATH\Models\KelasInputModel.php on line 37.
+ 1 APPPATH\Models\KelasInputModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Models\\KelasInputModel.php', 37)
+ 2 APPPATH\Controllers\KelasInput.php(130): App\Models\KelasInputModel->edit_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->sunting('C14220000')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:58:51 --> Undefined array key "nrp"
+in APPPATH\Models\KelasInputModel.php on line 40.
+ 1 APPPATH\Models\KelasInputModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Models\\KelasInputModel.php', 40)
+ 2 APPPATH\Controllers\KelasInput.php(130): App\Models\KelasInputModel->edit_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->sunting('C14220000')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 09:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 10:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
