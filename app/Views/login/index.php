@@ -21,7 +21,7 @@
     }
 
     .box {
-      height: 485px;
+      height: 460px;
       width: 300px;
       position: absolute;
       left: 50%;
@@ -45,13 +45,18 @@
       text-align: center;
     }
 
-    input[type=radio]+label {
-      margin: 0 55px 0 0;
+    input[type=password] {
+      margin-top: 4px;
     }
+
+    /* input[type=radio]+label {
+      margin: 0 55px 0 0;
+    } */
 
     button {
       height: 35px;
       width: 65px;
+      margin-top: 4px;
       background-color: rgb(56, 111, 72);
       border-radius: 5px;
       color: rgb(255, 255, 247);
@@ -120,10 +125,10 @@
         <hr>
         <input type="text" value="<?=old('nrp')?>" placeholder="NRP" name="nrp" id="nrp" required>
         <p>We'll never share your username with anyone else.</p>
-        <input type="radio" class="form-check-input" id="user" name="status" value="User" required>
+        <!-- <input type="radio" class="form-check-input" id="user" name="status" value="User" required>
         <label for="user">User</label>
         <input type="radio" class="form-check-input" id="admin" name="status" value="Admin" required>
-        <label for="admin">Admin</label><br>
+        <label for="admin">Admin</label><br> -->
         <input type="password" value="<?=old('password')?>" placeholder="Password" name="password" id="password" required>
         <p>must be 8-20 characters</p>
         <button type="submit">Sign In</button>
